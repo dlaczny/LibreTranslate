@@ -1,7 +1,4 @@
-version: "3"
-
-services:
-  libretranslate:
+libretranslate:
     container_name: libretranslate
     build:   
       docker:
