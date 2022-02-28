@@ -2,4 +2,5 @@ build:
   docker:
     web: Dockerfile
 run:
-  web: docker build [--build-arg with_models=true] -t libretranslate .
+  web: docker run -it -p 5000:5000 libretranslate [args]
+
